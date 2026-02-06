@@ -1,0 +1,15 @@
+body {
+  display: grid;
+  background-color: #B0B8C2;
+  color: #000000;
+  grid-template-columns: auto; 
+  grid-template-rows: minmax(100px, auto);
+}
+body.dark-mode {
+  background-color: #201347;
+  color: #ffffff;
+}
+button {
+  background-color: #CECFC4; 
+  border: 1px solid grey; 
+}
