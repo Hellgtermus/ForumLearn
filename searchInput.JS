@@ -13,7 +13,7 @@ function searchFunction() {
         if (textValue.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";
         } else {
-            li[i].style.display = "none"; // Sinon, on le cache
+            li[i].style.display = "none"; 
         }
     }
 }
